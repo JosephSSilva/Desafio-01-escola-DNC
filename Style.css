@@ -1,0 +1,103 @@
+*{
+    font-family:"inter";
+    margin: 0px;
+
+}
+
+#TituloMenuSuperior{
+    margin-top: 106px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-size: 58px;
+}
+#TextoMenuSuperior{
+    margin-top:10px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+#MenuSuperior{
+    background-color: #303030;
+    background-size: cover;
+    padding: 30px;
+}
+#MenuDados{
+    background-color: #F9F9F9;
+    grid-auto-flow: column;
+    display: grid;
+    padding: 60px;
+
+}
+#Coluna1{
+    margin-left: 100px;
+}
+#MenuHistoria{
+    grid-auto-flow: column;
+    display: grid;
+    margin-bottom: 80px;
+}
+#Historia{
+    margin-top: 200px;
+    margin-left:100px;
+    font-size: 20px;
+
+    
+}
+#TituloHistoria{
+    margin-top: 70px;
+    font-weight: 500;
+}
+#CorpoHistoria{
+    margin-top: 40px;
+    font-size: 25px;
+    
+}
+#Imagem{
+    margin-top: 80px;
+}
+#Formulario{
+    background-color: #303030;
+    text-align: center;
+    padding: 80px;
+    padding-bottom: 60px;
+}
+#TituloFormulario{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:30px;
+}
+input{
+    background-color: #FFFFFF;
+    width:400px;
+    height: 50px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    font-weight: 700;
+    
+}
+button{
+    background-color: #C07212;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: raleway;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    background-color: #db7d0b;
+    box-shadow:0px 15px 20px #5b350794;
+
+}
